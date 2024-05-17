@@ -41,6 +41,8 @@ We began by training the OpenAI CLIP model with our dataset using a straightforw
 <b>Revised Approach</b><br>
 To overcome the initial challenges, we utilized a script from Hugging Face to fine-tune the CLIP model, which we then integrated with stable diffusion. This improved approach resolved compatibility issues but did not produce optimal image quality due to hardware limitations, preventing extensive training.
 
+https://github.com/damian0815/finetune-clip-huggingface/tree/main 
+
 ## Challenges and Future Enhancements
 <b>Challenges</b><br>
 - Compatibility Issues: Initial difficulties in integrating the fine-tuned CLIP model with the stable diffusion model.
