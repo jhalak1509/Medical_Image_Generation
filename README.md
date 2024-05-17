@@ -34,6 +34,9 @@ Use the following example commands to generate images:
 <b>Initial Approach</b><br>
 We began by training the OpenAI CLIP model with our dataset using a straightforward method. The model performed well in predicting image captions. However, integrating this trained CLIP model with the stable diffusion model led to compatibility issues and multiple errors.
 
+<img width="682" alt="Screen Shot 2024-04-24 at 1 04 43 AM" src="https://github.com/jhalak1509/Medical_Image_Generation/assets/114832299/c3391370-9c21-45a3-8440-62c658a3be8d">
+
+
 <b>Revised Approach</b><br>
 To overcome the initial challenges, we utilized a script from Hugging Face to fine-tune the CLIP model, which we then integrated with stable diffusion. This improved approach resolved compatibility issues but did not produce optimal image quality due to hardware limitations, preventing extensive training.
 
