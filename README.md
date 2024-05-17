@@ -1,1 +1,1 @@
-# Medical_Image_Generation
+# Medical Image Generation: Using Fine-Tuned CLIP Model with Stable Diffusion
